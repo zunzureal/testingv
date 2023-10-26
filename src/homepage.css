@@ -1,0 +1,91 @@
+.topic {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 20px;
+    animation: fade-up 1s ease-in-out;
+  }
+  
+  .topic:hover {
+    color: #19cf97;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .topic:hover {
+    filter: drop-shadow(0 0 10em #646cffaa);
+    transition: 0.3 ease-in-out;
+  }
+  .topic.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+  
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+  
+  .card {
+    padding: 2em;
+  }
+  
+  .discrption {
+    position: absolute;
+    left: 50.3%;
+    top: 55%;
+    transform: translateX(-50%);
+    color: #888;
+    animation: fade-up 1s ease-in-out;
+  }
+  
+  .copyright {
+    color: #ffffff;
+    position: absolute;
+    bottom: 10%;
+    left: 50.1%;
+    transform: translateX(-50%);
+    font-size: 0.8em;
+  }
+
+  @keyframes fade-up {
+    0% {
+      opacity: 0;
+      transform: translateY(30px) scale(0.9);
+      transform: translateX(-50%) scale(0.9); 
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0px) scale(1);
+      transform: translateX(-50%) scale(1);
+    }
+  }
+  
+  @keyframes fade-down {
+    0% {
+      opacity: 0;
+      transform: translateY(-30px) scale(0.9);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0px) scale(1);
+    }
+    
+  }
+
+  .hero {
+    height: 900px;
+    background: #242424;
+  }
